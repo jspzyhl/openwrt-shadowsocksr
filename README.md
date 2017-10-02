@@ -9,7 +9,7 @@ ShadowsocksR-libev for OpenWrt/LEDE
 特性
 ---
 
-软件包只包含 [shadowsocksr-libev][1] 的可执行文件, 可与 [luci-app-shadowsocks][https://github.com/Hill-98/luci-app-shadowsocks] 搭配使用
+软件包只包含 [shadowsocksr-libev][1] 的可执行文件, 可与 [luci-app-shadowsocks](https://github.com/Hill-98/luci-app-shadowsocks) 搭配使用
 
  - shadowsocks-libev
 
