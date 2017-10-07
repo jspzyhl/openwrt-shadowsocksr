@@ -9,7 +9,7 @@ ShadowsocksR-libev for OpenWrt/LEDE
 特性
 ---
 
-软件包只包含 [shadowsocksr-libev][1] 的可执行文件, 可与 [luci-app-shadowsocks](https://github.com/Hill-98/luci-app-shadowsocks) 搭配使用
+软件包只包含 [shadowsocksr-libev][1] 的可执行文件, 可与 [luci-app-shadowsocksr](https://github.com/Hill-98/luci-app-shadowsocksr) 搭配使用
 
  - shadowsocks-libev
 
@@ -63,7 +63,7 @@ ShadowsocksR-libev for OpenWrt/LEDE
    mptcp          | 布尔值   | 是否启用 [Multipath TCP][M]
 
 
-  [1]: https://github.com/shadowsocksr-rm/shadowsocksr-libev
-  [F]: https://github.com/shadowsocks/shadowsocks/wiki/TCP-Fast-Open
-  [S]: https://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
-  [M]: https://www.multipath-tcp.org/
+[1]: https://github.com/shadowsocksr-rm/shadowsocksr-libev
+[F]: https://github.com/shadowsocks/shadowsocks/wiki/TCP-Fast-Open
+[S]: https://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
+[M]: https://www.multipath-tcp.org/
