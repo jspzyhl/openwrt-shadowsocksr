@@ -17,9 +17,9 @@ ShadowsocksR-libev for OpenWrt/LEDE
    客户端/
    └── usr/
        └── bin/
-           ├── ss-local       // 提供 SOCKS 代理
-           ├── ss-redir       // 提供透明代理, 从 v2.2.0 开始支持 UDP
-           └── ss-tunnel      // 提供端口转发, 可用于 DNS 查询
+           ├── ssr-local       // 提供 SOCKS 代理
+           ├── ssr-redir       // 提供透明代理, 从 v2.2.0 开始支持 UDP
+           └── ssr-tunnel      // 提供端口转发, 可用于 DNS 查询
    ```
 
 编译
@@ -31,7 +31,7 @@ ShadowsocksR-libev for OpenWrt/LEDE
    # 以 ar71xx 平台为例
    tar xjf OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2.tar.bz2
    cd OpenWrt-SDK-ar71xx-*
-   git clone https://github.com/Hill-98/shadowsocksr-libev_openwrt package/shadowsocksr-libev
+   git clone https://github.com/Hill-98/openwrt-shadowsocksr package/shadowsocksr-libev
    # 选择要编译的包 Network -> shadowsocksr-libev
    make menuconfig
    # 开始编译
