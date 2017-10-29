@@ -63,7 +63,7 @@ ShadowsocksR-libev for OpenWrt/LEDE
    mptcp          | 布尔值   | 是否启用 [Multipath TCP][M]
 
 
-[1]: https://github.com/shadowsocksr-rm/shadowsocksr-libev
+[1]: https://github.com/shadowsocksrr/shadowsocksr-libev
 [F]: https://github.com/shadowsocks/shadowsocks/wiki/TCP-Fast-Open
 [S]: https://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
 [M]: https://www.multipath-tcp.org/
