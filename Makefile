@@ -29,14 +29,14 @@ define Package/$(PKG_NAME)
   TITLE:=Lightweight Secured Socks5 Proxy (OpenSSL)
   VARIANT:=openssl
   URL:=https://github.com/shadowsocksrr/shadowsocksr-libev
-  DEPENDS:=+libopenssl +libpcre +libpthread +zlib
+  DEPENDS:=+libopenssl +libpcre +libpthread +zlib +libev +libsodium +libudns
 endef
 
 define Package/$(PKG_NAME)/description
 ShadowsocksR-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 endef
 
-CONFIGURE_ARGS += --disable-ssp --disable-documentation --disable-assert
+CONFIGURE_ARGS += --disable-documentation --enable-system-shared-lib
 
 define Package/$(PKG_NAME)/install
 	$(INSTALL_DIR) $(1)/usr/bin
