@@ -29,7 +29,7 @@ define Package/$(PKG_NAME)
   TITLE:=Lightweight Secured Socks5 Proxy (OpenSSL)
   VARIANT:=openssl
   URL:=https://github.com/shadowsocksr/shadowsocksr-libev
-  DEPENDS:=+libopenssl +libpcre +libpthread +zlib +libsodium
+  DEPENDS:=+libopenssl +libpcre +libpthread +zlib
 endef
 
 define Package/$(PKG_NAME)/description
