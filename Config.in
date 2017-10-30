@@ -1,0 +1,5 @@
+config SSR_LIBEV_SSLIB
+    bool "Using shared library from system"
+    default n
+    help 
+    This will replace the bundled libev, libsodium and libudns with the corresponding libraries installed in the system during compilation and linking.
