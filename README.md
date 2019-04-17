@@ -9,7 +9,7 @@ ShadowsocksR-libev for OpenWrt/LEDE
 特性
 ---
 
-软件包只包含 [shadowsocksr-libev][1] 的可执行文件, 可与 [luci-app-shadowsocksr](https://github.com/Hill-98/luci-app-shadowsocksr) 搭配使用
+软件包只包含 [shadowsocksr-libev][1] 的可执行文件, 可与 [luci-app-shadowsocksr](https://github.com/jspzyhl/luci-app-shadowsocksr) 搭配使用
 
  - shadowsocks-libev
 
@@ -31,8 +31,8 @@ ShadowsocksR-libev for OpenWrt/LEDE
    # 以 ar71xx 平台为例
    tar xjf OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2.tar.bz2
    cd OpenWrt-SDK-ar71xx-*
-   git clone https://github.com/Hill-98/openwrt-shadowsocksr package/shadowsocksr-libev
-   # 选择要编译的包 Network -> shadowsocksr-libev
+   git clone https://github.com/jspzyhl/openwrt-shadowsocksr package/shadowsocksr-libev
+   # 选择要编译的包 Network -> Web Servers/Proxies -> shadowsocksr-libev
    make menuconfig
    # 开始编译
    make package/shadowsocksr-libev/compile V=99
